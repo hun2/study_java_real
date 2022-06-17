@@ -7,9 +7,9 @@ public class Test1 {
 
 	public static void main(String[] args) {
 		
-		// Q. 1234, 3456 의 합집합, 차집합, 교집합을 구하세요.
+	// Q. 1234, 3456 의 합집합, 차집합, 교집합을 구하세요.
 
-        // 1234, 3456 값을 세팅한다.
+      // 1234, 3456 값을 세팅한다.
     Set<Integer> set1 = new HashSet<>();
     Set<Integer> set2 = new HashSet<>();
     
