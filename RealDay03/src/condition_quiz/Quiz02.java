@@ -35,14 +35,15 @@ public class Quiz02 {
 		
 		
 		//3번 범위 1 ~ 10의 사이의 수를 입력 받아야 한다. 범위를 넘어갈 경우 잘못 입력하셨습니다를 출력하세요.
-//		System.out.print("1~10 사이의 수를 입력하세요 :");
-//		int number = scan.nextInt();
-//		
-//		if ( number <= 10 && number >0) {
-//			System.out.println("굿 ");
-//		} else {
-//			System.out.println("잘못 입력하셨습니다.");
-//		}
+		//유효성 체크 ( validation check)
+		System.out.print("1~10 사이의 수를 입력하세요 :");
+		int number = scan.nextInt();
+		
+		if ( number <= 10 && number >0) {
+			System.out.println("굿 ");
+		} else {
+			System.out.println("잘못 입력하셨습니다.");
+		}
 		
 		
 		

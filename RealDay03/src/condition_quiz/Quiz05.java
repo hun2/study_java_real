@@ -12,7 +12,7 @@ public class Quiz05 {
 //		System.out.print("두 점수를 입력하세요 :");
 //		int number = scan.nextInt();
 //		int number1 = scan.nextInt();
-//		int result = number + number1;
+//		double result = number + number1;
 //		
 //		if (result/2 >= 70) {
 //			System.out.println("합격");
@@ -31,7 +31,8 @@ public class Quiz05 {
 //		
 //		if ( result < number1) {
 //			result = number1;
-//		} else if (result < number2) {
+//		} 
+//		if (result < number2) {
 //			result = number2;
 //		} 
 //		
@@ -44,7 +45,7 @@ public class Quiz05 {
 //		System.out.print("점수 2 :");
 //		int number1 = scan.nextInt();
 //		
-//		int result = (number + number1) / 2;
+//		double result = (number + number1) / (double)2;
 //		
 //		if ( result >= 60 && number >=50 && number1 >= 50) {
 //			System.out.println("합격");
@@ -53,8 +54,26 @@ public class Quiz05 {
 //		}
 		
 		
+		//4. 윤년 구하기
+		//연도를 입력 받아서 윤년인지 평년인지 출력하세요.
+		//윤년 조건 4로 나누어 떨어지는 연도는 윤년이다.
 		
-		//4번 윷놀이 4개의 윷 상태가 입력되면 도, 개, 걸, 윷, 모를 출력하는 프로그램을 작성하시오.
+		
+		System.out.print("연도 :");
+		int number = scan.nextInt();
+		if ( number %4 == 0 && number%100 != 0 || number%400 ==0) {
+			System.out.println("윤년");
+		} else {
+			System.out.println("평년");
+		}
+		
+		
+		
+		
+
+		
+		
+		//5번 윷놀이 4개의 윷 상태가 입력되면 도, 개, 걸, 윷, 모를 출력하는 프로그램을 작성하시오.
 		// 윷의 상태가 0이면 뒤집어 지지 않은 상태, 1이면 뒤집어진 상태를 의미한다.
 		
 //		System.out.print("윷 상태를 입력하세요 :");

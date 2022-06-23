@@ -27,6 +27,11 @@ public class Ex04 {
 		} else {
 			System.out.println("응 못먹어");
 		}
+		
+		
+		
+		
+		
 	}
 
 }

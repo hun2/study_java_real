@@ -15,7 +15,13 @@ public class Test4 {
 		
 		System.out.print("모래 시계를 입력하세요 : ");		
 		int number = scan.nextInt();
-		for ( int i = 0; i < scan)
+		for ( int i = 0; i < number; i++) {
+			
+			for (int j = 0; j<number; j++) {
+				
+				
+			}
+		}
 	}
 
 }
