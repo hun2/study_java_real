@@ -1,0 +1,2 @@
+module RealDay06 {
+}

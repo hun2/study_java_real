@@ -30,6 +30,14 @@ public class Quiz_02 {
 		
 		System.out.println();
 		
+		// 3배수로 증감으로 진행 시 
+//		for ( int i =3; i<=50; i+=3) {
+//			System.out.print(i+ " ");
+//		}
+		
+		
+		
+		
 		//4번 갯수 세기 1 ~ 100 사이에 7의 배수 갯수를 구하세요.
 		int sum = 0;
 		
@@ -39,6 +47,14 @@ public class Quiz_02 {
 			}
 		}
 		System.out.println("7의 배수의 갯수는 : " + sum);
+		
+		//7배수 증감으로 진행 시 
+//		for (int i =7; i <=100; i+=7) {
+//			sum += 1;
+//		}
+//		
+//		System.out.println("7의 배수의 갯수는 :" + sum);
+		
 		
 		
 		//5번 수를 입력 받아서 해당하는 단수의 구구단을 출력 하세요.
