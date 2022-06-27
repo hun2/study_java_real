@@ -43,7 +43,6 @@ public class Quiz01 {
 		
 		
 		
-		
 		//4번 별찍기
 		
 		
