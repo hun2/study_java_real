@@ -7,8 +7,7 @@ public class Quiz02 {
 	public static void main(String[] args) {
 
 		
-		int[] numbers = {3, 5, 2, 10, 39};
-		
+//		int[] numbers = {3, 5, 2, 10, 39};
 		// 1번 index와 값을 차례로 입력 받아서, 아래 배열에 해당하는 index에 값을 바꾸고 출력 하세요.
 //		Scanner scan = new Scanner(System.in);
 //		System.out.print("변경할 index와 값을 입력하세요 : ");
@@ -57,21 +56,21 @@ public class Quiz02 {
 		//4번 배열 값 변경 길이가 5인 int 배열을 만든다.
 		// 수를 계속 입력 받으면서, 입력 받은 수가 짝수 일때만, 배열에 저장한다.
 		// 배열이 가득차면 입력을 중단하고, 저장된 수들을 출력한다.
-//		Scanner scan = new Scanner(System.in);
-//		int[] exmple = new int[5];
-//		
-//		for ( int i =0; i <exmple.length; i++) {
-//			System.out.print("수를 입력하세요 : ");
-//			int number = scan.nextInt();
-//			if ( number % 2 == 0) {
-//				exmple[i] = number;
-//			} else {
-//				i--;
-//			}
-//		}
-//		for (int i =0; i<exmple.length; i++) {
-//			System.out.print(exmple[i] + " ");
-//		}
+		Scanner scan = new Scanner(System.in);
+		int[] exmple = new int[5];
+		
+		for ( int i =0; i <exmple.length; i++) {
+			System.out.print("수를 입력하세요 : ");
+			int number = scan.nextInt();
+			if ( number % 2 == 0) {
+				exmple[i] = number;
+			} else {
+				i--;
+			}
+		}
+		for (int i =0; i<exmple.length; i++) {
+			System.out.print(exmple[i] + " ");
+		}
 		
  	}
 
