@@ -49,6 +49,25 @@ public class Ex02 {
 		s2 = s2.replace("치킨", "떡볶이");
 		System.out.println(s2);
 		
+		
+		//split :특정 스트링을 기준으로 잘라서 배열에 넣는다.
+		String s3 =  "apple,melon,grape";
+		String[] fruits = s3.split(",");
+		
+		for ( int i =0; i <fruits.length; i++) {
+			System.out.println(fruits[i]);
+		}
+		
+		
+		//substring : 문자열을 자른다. 
+		String s4 = "javastudy";
+		
+		System.out.println(s4.substring(4));
+		System.out.println(s4.substring(0, 4));
+		System.out.println(s4.substring(4, 9));
+		
+		
+		
 	}
 
 }

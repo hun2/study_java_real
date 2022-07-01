@@ -1,10 +1,8 @@
 package string_quiz;
 
-public class Quiz02 {
+public class Quiz01 {
 
 	public static void main(String[] args) {
-		
-		
 		//1번 문자	아래 문자열에서 A 를 B로 바꿔서 출력 하세요.
 		String gradeStr = "My grade is A";
 		gradeStr = gradeStr.replace("A", "B");
@@ -30,8 +28,7 @@ public class Quiz02 {
 		}
 		
 		System.out.println("단어 개수 : " + count);
-		
-		
+		System.out.println("단어 개수 : " +  sentences.length);
 		
 		
 	}

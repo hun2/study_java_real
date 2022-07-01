@@ -84,17 +84,34 @@ public class Quiz01 {
 		//5번 [3][3] 크기의 배열을 만드세요. 반복문을 이용해서, 아래와 같은 형태로 숫자를 차례로 저장하고 출력 하세요.
 		int[][] array4 = new int[3][3];
 		
-		int c = 1;
-		for ( int i = 0; i< array4.length; i++ ) {
-			
-			for ( int j = 0; j<array4[i].length; j++ ) {
+//		int c = 1;
+//		for ( int i = 0; i< array4.length; i++ ) {
+//			
+//			for ( int j = 0; j<array4[i].length; j++ ) {
+//				
+//				array4[i][j] = c;
+//				c++;
+//				System.out.print(array4[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
+		
+		
+		//5-1 개발자방식
+		for (int i = 0; i < array4.length; i++) {
+			for ( int j = 0; j <array4[i].length; j++) {
 				
-				array4[i][j] = c;
-				c++;
+				array4[i][j] =  (i * 3 ) + (j + 1); // 규칙1. 열은 +1씩 증가함 규칙2. 
 				System.out.print(array4[i][j] + " ");
+				
+				
 			}
 			System.out.println();
 		}
+		
+		
+		
+		
 		
 		
 		
@@ -104,14 +121,28 @@ public class Quiz01 {
 		int e = 1;
 		for (int i = 0; i < array5.length; i++) {
 			for (int j = 0; j < array5.length; j++) {
-				array5[i][j] += e;
+				array5[i][j] = e;
 				System.out.print(array5[i][j]+" ");
 				e += 3;
 			}
 			e =i+2;
 			System.out.println();
 		}
-			
+		
+		
+		//6번 -1 개발자방식
+		
+//		for (int i = 0; i < array4.length; i++) {
+//			for ( int j = 0; j <array4[i].length; j++) {
+//				
+//				array4[i][j] =  (j * 3 ) + (i + 1); // 규칙1. 열은 +1씩 증가함 규칙2. 
+//				System.out.print(array4[i][j] + " ");
+//				
+//				
+//			}
+//			System.out.println();
+//		}
+		
 		
 		
 	}
