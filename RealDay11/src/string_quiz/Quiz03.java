@@ -55,42 +55,60 @@ public class Quiz03 {
 		
 		
 		// 3번 동명이인 수 구하기
-		String memberStr = "김혜수:송강호:정우성:이민정:송강호:이민정:이민정:이정재:이병헌:이정재";
+		String memberStr = "김혜수:김혜수:김혜수:김혜수:김혜수:김혜수:김혜수:이병헌:김모씨:이병헌";
 		String[] member = memberStr.split(":");
-		int count = 0;
-		String[] member2 = new String[10];
+		
+//		int sameCount = 0;
+//		
+//		for ( int i = 0;  i < member.length -1 ; i++) {  // 마지막 애는 굳이 안돌아도 되니
+//			String name  = member[i]; // 검사할 기준 이름 
+//			boolean isSame = false;
+//			
+//			if ( name.equals("-")) { //중복되서 마킹이 되면 skip 되는 if
+//				continue;
+//			}
+//			
+//			for ( int j  = i+1; j < member.length; j++) {
+//				
+//				if (name.equals(member[j])) {
+//					isSame = true;
+//					member[j] = "-"; // 중복이면 마킹한다.
+//				}
+//			}
+//			
+//			if ( isSame) {
+//				sameCount++;
+//			}
+//		}
+//		
+//		System.out.println("동명이인 종류의 수 " + sameCount);
 		
 		
-	        for ( int i = 0; i < member.length; i++) {
-	        	
-	          for ( int j = i+1; j<member.length; j++) {
-	                if ( member[i].equals(member[j])) {
-	                      member2[i] = member[i];
-	                }
-	          }
-	          
-	          System.out.println(member2[i]);
-	         
-
-	        }
 		
 		
-	        int number = 0;
-	        for ( int i =0; i<member2.length; i++) {
-	        	
-	        	if (member2[i] == null) {
-	        		continue;
-	        	} else {
-	        		number++;
-	        		
-	        		
-	        		
-	        	}
-	        	
-	        }
-
-	        System.out.println(number );
-		
+		//다른 방법
+//		int resultCount = 0;
+//	    
+//		
+//		for ( int i =0 ; i < member.length - 1; i++) {
+//			
+//			int tempCount = 0; // 기준 이름 갯수
+//			for ( int j = i+1; j < member.length; j++) {
+//				if (member[i].equals(member[j])) {
+//					tempCount ++;
+//				}
+//			}
+//			
+//			if (tempCount == 1) {
+//				resultCount ++;
+//			}
+//		}
+//	        
+//		System.out.println(resultCount);
+	        
+	        
+	        
+	        
 		
 		
 	        
