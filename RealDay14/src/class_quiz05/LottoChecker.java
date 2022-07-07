@@ -8,6 +8,7 @@ public class LottoChecker {
 	private int[] reallotto = new int[6];
 	
 	
+	
 	public int[] reallotto() {
 		
 		Random rand = new Random();
@@ -32,6 +33,13 @@ public class LottoChecker {
 	}
 	
 	
+	public void reallotto2() {
+		System.out.print("당첨번호 : ");
+		for ( int i = 0; i<reallotto.length; i++) {
+			System.out.print(reallotto[i] + " ");
+		}
+	}
+	
 	
 	public void resultPrint(Lotto lotto) {
 		
@@ -43,6 +51,7 @@ public class LottoChecker {
 				
 				if (reallotto[i] == lotto.getLotto()[j]) {
 					result++;
+					break;
 				}
 			}
 		}

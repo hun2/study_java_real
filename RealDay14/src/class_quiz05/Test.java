@@ -21,10 +21,12 @@ public class Test {
 		
 		
 		LottoChecker checker = new LottoChecker();
-		checker.reallotto();
-		checker.resultPrint(lotto);
-		checker.resultPrint(lotto1);
-		checker.resultPrint(lotto2);
+		checker.reallotto(); // 로또번호 뽑기
+		checker.reallotto2(); // 로또번호 출력 메소드
+		System.out.println();
+		checker.resultPrint(lotto); // 수동 로또번호 검사
+		checker.resultPrint(lotto1); // 생성자 수동로또번호 검사
+		checker.resultPrint(lotto2); // 자동 로또번호 검사
 		
 		
 		
