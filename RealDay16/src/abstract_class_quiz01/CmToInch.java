@@ -4,13 +4,11 @@ public class CmToInch extends Converter {
 
 	@Override
 	protected void printConverted() {
-		System.out.println(result);
+		System.out.println(this.result + "inch");
 	}
-
-	@Override
-	 public void convert(int input) {
-        this.result = input * 0.393701;
-    } 
 	
+	public CmToInch() {
+		this.ratio = 0.393701;
+	}
 	
 }

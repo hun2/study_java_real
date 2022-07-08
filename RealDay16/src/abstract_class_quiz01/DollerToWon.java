@@ -5,7 +5,7 @@ public class DollerToWon extends Converter{
 	
 	@Override
 	protected void printConverted() {
-		System.out.println(result);
+		System.out.println((int)result);
 	}
 	
 	public DollerToWon(int dollor) {
