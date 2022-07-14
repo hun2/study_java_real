@@ -52,8 +52,6 @@ public class Quiz03 {
         while(test.hasNext()) {
         	
         	String number = test.next();
-        	System.out.println(number);
-        	System.out.println(bookMap.get(number));
         	if ( bookMap.get(number).containsKey(searchBook)) {
         		
         		String result = bookMap.get(number).get(searchBook);
